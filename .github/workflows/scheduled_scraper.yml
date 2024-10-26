@@ -1,0 +1,25 @@
+name: Scheduled SERP Scraper
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Runs every day at midnight UTC
+
+jobs:
+  run-scraper:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          pip install requests pandas  # Include any other dependencies
+
+      - name: Run scraper
+        run: python scraper.py  # Ensure this matches your script name
