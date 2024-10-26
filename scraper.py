@@ -13,7 +13,7 @@ import pandas as pd
 
 # Set up the basic request parameters
 base_params = {
-    'api_key': '',  # Replace with your actual VALUESERP API key
+    'api_key': 'C05AAB4D47E6404E90F577EB203A8F28',  # Replace with your actual VALUESERP API key
     'location': 'New York,United States',
     'google_domain': 'google.com',
     'gl': 'us',
