@@ -2,7 +2,7 @@ name: Scheduled SERP Scraper
 
 on:
   schedule:
-    - cron: '30 16 * * *'  # Runs every day at midnight UTC
+    - cron: '45 17 * * *'  # Runs every day at midnight UTC
 
 jobs:
   run-scraper:
@@ -22,4 +22,10 @@ jobs:
           pip install requests pandas  # Include any other dependencies
 
       - name: Run scraper
-        run: python scraper.py  # Ensure this matches your script name
+        run: python scraper.py
+
+      - name: Save CSV file as artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: search_results
+          path: search_results.csv
