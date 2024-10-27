@@ -25,7 +25,7 @@ base_params = {
 }
 
 # Define the list of queries
-queries = ['what is long term covid', 'latest tech trends 2024', 'best SEO practices', 'AI in healthcare']
+queries = ['espp', 'long term incentive plan']
 
 # Initialize an empty list to hold all results
 all_results = []
