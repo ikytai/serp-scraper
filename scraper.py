@@ -63,7 +63,7 @@ for query in queries:
 df = pd.DataFrame(all_results)
 
 # Export DataFrame to CSV
-csv_file_path = '/content/search_results.csv'
+csv_file_path = 'search_results.csv'
 df.to_csv(csv_file_path, index=False)
 
 print(f"Data has been saved to {csv_file_path}")
