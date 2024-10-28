@@ -2,7 +2,7 @@ name: Scheduled SERP Scraper
 
 on:
   schedule:
-    - cron: '20 18 * * *'  # Runs every day at 17:45 UTC
+    - cron: '20 18 * * 1'  # Runs every day at 17:45 UTC
 
 jobs:
   run-scraper:
