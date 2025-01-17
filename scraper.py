@@ -15,7 +15,7 @@ base_params = {
 }
 
 # Define the list of queries
-queries = ['espp', 'long term incentive plan', 'equity compensation', 'stock plan administration', 'stock plan administration software', 'equity management software', 'equity management platform']
+queries = ['espp', 'long term incentive plan', 'equity compensation', 'stock plan administration', 'stock plan administration software', 'equity management software', 'equity management platform', 'employee stock options']
 
 # Initialize an empty list to hold all results
 all_results = []
