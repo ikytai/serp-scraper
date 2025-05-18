@@ -4,9 +4,9 @@ import pandas as pd
 # Set up the basic request parameters
 base_params = {
     'api_key': 'C05AAB4D47E6404E90F577EB203A8F28',  # Replace with your actual VALUESERP API key
-    'location': 'New York,United States',
+    'location': 'United Kingdom',
     'google_domain': 'google.com',
-    'gl': 'us',
+    'gl': 'uk',
     'hl': 'en',
     'device': 'desktop',
     'include_answer_box': 'true',
@@ -15,7 +15,7 @@ base_params = {
 }
 
 # Define the list of queries
-queries = ['espp', 'long term incentive plan', 'equity compensation', 'stock plan administration', 'stock plan administration software', 'equity management software', 'equity management platform', 'employee stock options']
+queries = ['construction software', 'construction management software', 'construction project management software', 'construction estimating software', 'construction document management software', 'construction bidding software', 'best construction management software', 'best construction project management software']
 
 # Initialize an empty list to hold all results
 all_results = []
