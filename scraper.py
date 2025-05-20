@@ -5,7 +5,7 @@ import pandas as pd
 base_params = {
     'api_key': 'C05AAB4D47E6404E90F577EB203A8F28',  # Replace with your actual VALUESERP API key
     'location': 'United Kingdom',
-    'google_domain': 'google.co.uk',
+    'google_domain': 'google.com',
     'gl': 'uk',
     'hl': 'en',
     'device': 'desktop',
